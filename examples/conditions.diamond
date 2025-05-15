@@ -1,0 +1,34 @@
+# Example to test if-else conditions
+
+# Test simple if condition
+mera dost x = 10
+agar dost x > 5
+    sun dost "x is greater than 5"
+bas dost
+
+# Test if-else condition
+mera dost y = 3
+agar dost y > 5
+    sun dost "y is greater than 5"
+warna dost
+    sun dost "y is less than or equal to 5"
+bas dost
+
+# Test with arithmetic
+mera dost a = 15
+mera dost b = 10
+agar dost a + b > 20
+    sun dost "Sum is greater than 20"
+    sun dost "The sum is: " + str(a + b)
+warna dost
+    sun dost "Sum is less than or equal to 20"
+    sun dost "The sum is: " + str(a + b)
+bas dost
+
+# Test with string comparison
+mera dost name = "Diamond"
+agar dost name == "Diamond"
+    sun dost "Welcome to Diamond language!"
+warna dost
+    sun dost "Unknown language"
+bas dost 

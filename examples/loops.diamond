@@ -1,0 +1,39 @@
+# Example to test loops
+
+# While loop example
+sun dost "\nWhile loop counting down:"
+mera dost count = 5
+jab tak dost count > 0
+    sun dost "Count is: " + str(count)
+    mera dost count = count - 1
+bas dost
+
+# For loop example
+sun dost "\nFor loop counting up:"
+ghum dost i se 1 tak 5
+    sun dost "Number is: " + str(i)
+bas dost
+
+# For loop with step
+sun dost "\nFor loop with step of 2:"
+ghum dost x se 0 tak 10 2
+    sun dost "Even number: " + str(x)
+bas dost
+
+# Nested loops example
+sun dost "\nMultiplication table:"
+ghum dost i se 1 tak 3
+    ghum dost j se 1 tak 3
+        sun dost str(i) + " x " + str(j) + " = " + str(i * j)
+    bas dost
+bas dost
+
+# While loop with condition
+sun dost "\nGuess the number game:"
+mera dost target = 7
+mera dost guess = 0
+jab tak dost guess != target
+    mera dost guess = guess + 1
+    sun dost "Trying: " + str(guess)
+bas dost
+sun dost "Found the number!" 

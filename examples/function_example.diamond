@@ -1,0 +1,56 @@
+# Basic function test without parameters
+kaam dost sayHello()
+    sun dost "Hello dost!"
+bas dost
+
+# Function with parameters and return value
+kaam dost add(a, b)
+    wapas dost a + b
+bas dost
+
+# Function with local variables
+kaam dost factorial(n)
+    mera dost result = 1
+    ghum dost i se 1 tak n
+        mera dost result = result * i
+    bas dost
+    wapas dost result
+bas dost
+
+# Function that uses string concatenation
+kaam dost greet(name)
+    sun dost "Namaste " + name + " dost!"
+bas dost
+
+# Test function calls
+sun dost "Testing basic function:"
+bula dost sayHello()
+
+sun dost "\nTesting addition function:"
+mera dost sum = bula dost add(5, 3)
+sun dost "5 + 3 = " + sum
+
+sun dost "\nTesting factorial function:"
+mera dost fact = bula dost factorial(5)
+sun dost "Factorial of 5 = " + fact
+
+sun dost "\nTesting greeting function:"
+bula dost greet("Rahul")
+
+# Test nested function calls
+sun dost "\nTesting nested function calls:"
+mera dost result = bula dost add(bula dost factorial(3), 10)
+sun dost "factorial(3) + 10 = " + result
+
+# Test scope handling
+mera dost x = 100
+kaam dost testScope(x)
+    sun dost "Inside function x = " + x
+    mera dost x = 200
+    sun dost "Modified inside function x = " + x
+bas dost
+
+sun dost "\nTesting scope:"
+sun dost "Global x = " + x
+bula dost testScope(50)
+sun dost "After function call, global x = " + x

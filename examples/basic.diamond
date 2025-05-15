@@ -1,0 +1,41 @@
+# Basic example to test print, variables and arithmetic
+
+# Print a string
+sun dost "Hello, Dost!"
+
+# Basic arithmetic operations
+mera dost a = 15
+mera dost b = 5
+
+sun dost "Let's do some math!"
+
+# Addition
+mera dost sum = a + b
+sun dost "Addition: " + str(sum)
+
+# Subtraction
+mera dost diff = a - b
+sun dost "Subtraction: " + str(diff)
+
+# Multiplication
+mera dost prod = a * b
+sun dost "Multiplication: " + str(prod)
+
+# Division
+mera dost div = a / b
+sun dost "Division: " + str(div)
+
+# More complex expression
+mera dost result = (a + b) * 2
+sun dost "Complex expression: " + str(result)
+
+# Declare and print a variable
+mera dost x = 42
+sun dost x
+
+# Print an expression
+sun dost x + 8
+
+# Print a string with variable
+mera dost name = "Diamond"
+sun dost "Welcome to " + name 

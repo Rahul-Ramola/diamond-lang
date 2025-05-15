@@ -1,0 +1,33 @@
+# Example to test input and arithmetic operations
+
+# Get two numbers from user
+sun dost "Let's do some math, dost!"
+puch dost "Enter first number: "
+mera dost num1 = input()
+puch dost "Enter second number: "
+mera dost num2 = input()
+
+# Show the input numbers
+sun dost "You entered:"
+sun dost "First number: " + str(num1)
+sun dost "Second number: " + str(num2)
+
+# Addition
+sun dost "\nAddition:"
+mera dost sum = jod dost num1 + num2
+sun dost "Sum is: " + str(sum)
+
+# Subtraction
+sun dost "\nSubtraction:"
+mera dost diff = ghata dost num1 - num2
+sun dost "Difference is: " + str(diff)
+
+# Multiplication
+sun dost "\nMultiplication:"
+mera dost prod = guna dost num1 * num2
+sun dost "Product is: " + str(prod)
+
+# Division
+sun dost "\nDivision:"
+mera dost quot = bat dost num1 / num2
+sun dost "Quotient is: " + str(quot) 
